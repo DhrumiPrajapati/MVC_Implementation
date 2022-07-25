@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Emp Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3>Enter the details:</h3>
+        <form action="ReportServlet" method="POST">
+            <table>
+                <tr>
+                    <td>ID:</td>
+                    <td><input type="text" name="ID" pattern="^[0-9]+$" required/></td>
+                </tr>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="NAME" pattern="^[a-zA-Z ]+$" required/></td>
+                </tr>
+                <tr>
+                    <td>Dept:</td>
+                    <td><input type="text" name="DEPT" pattern="^[a-zA-Z]+$" required/></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="SUBMIT" /></td>
+                </tr>
+            </table>
+        </form>
+        <br />
+        <a href="viewservlet">View entered data</a>
+    </body>
+</html>
