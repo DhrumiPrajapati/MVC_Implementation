@@ -2,8 +2,7 @@
 I have built this project to have better understanding of MVC(Model View Controller) architectural pattern. For that I have built an **Employee Registration Application** to store the data of Employees which follow MVT pattern to store and display data.
 
 ## Technologies Used
-- **Languages**: Python, HTML, CSS
-- **Framework**: Django, Bootstrap
+- **Languages**: Java(Advanced Java concepts)
 - **Database**: MySQL
 
 ## Contact Me
